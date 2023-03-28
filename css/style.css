@@ -59,7 +59,7 @@ background:#000000 !important;
 
 body {
 	display:none;
-	font-family: "Open Sans",Arial, Helvetica, sans-serif;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	font-weight:400;
 	color: #aaaaaa;
@@ -71,6 +71,7 @@ body {
 body.de_light,.de_light{
 	color:#777777;
 }
+
 
 .rtl,
 .rtl .tp-caption{
