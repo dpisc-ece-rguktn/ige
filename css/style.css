@@ -59,7 +59,7 @@ background:#000000 !important;
 
 body {
 	display:none;
-	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-family: "Open Sans",Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	font-weight:400;
 	color: #aaaaaa;
@@ -71,7 +71,6 @@ body {
 body.de_light,.de_light{
 	color:#777777;
 }
-
 
 .rtl,
 .rtl .tp-caption{
@@ -256,6 +255,32 @@ overflow:visible;
 	height:70px;
 	}
 	
+
+	.org-img{
+		width: 120px;
+		padding: 5px;
+	}
+
+	.text p{
+		text-align: left;
+	}
+
+	#section-hero .wm {
+		font-size: 7em;
+		text-align: center;
+		position: absolute;
+		left: 0;
+		top: 4em;
+		z-index: -1;
+
+	}
+
+
+
+	
+
+
+
 	.logo-smaller div#logo {
 	width: 150px;
 	height:30px;
@@ -3249,7 +3274,7 @@ border:solid 1px #ddd;
 	display: inline-block;
 }
 .pricing-s1 .top .price b {
-	font-size: 48px;
+	font-size: 25px;
 	line-height: 70px;
 	color: #fff;
 }
@@ -3276,7 +3301,8 @@ border:solid 1px #ddd;
 .pricing-s1 .bottom ul li > span {
 	color: #16A085;
 	font-size: 20px;
-	margin-right: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 .pricing-s1 .bottom ul li:nth-child(odd) {
 	background:rgba(255, 255, 255, .05);
@@ -3321,6 +3347,7 @@ border:solid 1px #ddd;
 	line-height: 70px;
 	font-weight:500;
 	color: #333;
+	
 }
 .pricing-s1.light .top .price .month {
 	color: #555;
@@ -4099,12 +4126,13 @@ border:solid 1px #ddd;
 		position:absolute;
 		z-index:100;
 		top:100%;
-		background:#111;
+		background:#111111e3;
 		color:#ccc;
 	}
 	
 	.de-team-list p{
 		clear:both;
+		line-height: 21px;
 	}
 	
 	.de-team-list .team-desc h3{
@@ -4510,7 +4538,7 @@ background:#555;
   border-radius: 50%;
 }
 .img-responsive {
-  display: inline-block;
+  display: block;
 }
 
 .label {
@@ -4935,7 +4963,7 @@ width:100%;
 	overflow: hidden;
 }
 .picframe img{
-	width:100%;
+	width:50%;
 }
 
 .picframe:hover .overlay-v{
@@ -7668,3 +7696,43 @@ display:table;
 		display:none;
 	}
 	}
+	.overlay-images {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  }
+  @media screen and (max-width: 480px) {
+  #teams{
+    width: 85%; /* Adjust the width to fill the screen */
+    height: auto; /* Allow the height to adjust proportionally */
+    /* Add any other necessary modifications to the card's styling */
+  }
+  .teams{
+   display: grid;
+   height: 100vh;
+    }
+    
+    .center {
+   margin: auto;
+   text-align: center;
+    }
+   }
+   @media screen and (max-width: 480px) {
+  #backs{
+    font-size: 80px; /* Adjust the width to fill the screen */
+    height: auto; /* Allow the height to adjust proportionally */
+    /* Add any other necessary modifications to the card's styling */
+  }
+  .backs{
+   display: grid;
+   height: 100vh;
+    }
+    
+    .center {
+   margin: auto;
+   text-align: center;
+    }
+   }
